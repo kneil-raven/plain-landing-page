@@ -1,7 +1,7 @@
 const navConfig = {
     brand: {
-        name: 'NaviCore',
-        logo: 'N'
+        name: 'KneilRaven',
+        logo: 'KR'
     },
     items: [
         { name: 'Home', href: '#', hasDropdown: false },
@@ -15,3 +15,5 @@ const navConfig = {
           { name: 'Contact', href: '#', hasDropdown: false ,}
     ]
 };
+
+export default navConfig;
