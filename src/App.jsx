@@ -16,6 +16,7 @@ function App() {
       <main className="min-h-screen p-6 flex flex-col items-center justify-center gap-6">
         <Brand />
       </main>
+
       <IconButton
         icon={Bell}
         onClick={handleClick}

@@ -1,4 +1,4 @@
-import navConfig from '../../../utils/constants'
+import navConfig from '../../../../utils/constants';
 
 const Brand = () => {
     const brand = navConfig.brand;
