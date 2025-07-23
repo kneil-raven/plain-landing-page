@@ -1,7 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import { classNames } from '../../../../utils/classNames';
 
-cosnt MobileMenuButton = ({ isOpen, onToggle}) => {
+const MobileMenuButton = ({ isOpen, onToggle}) => {
     return (
         <button
             onClick={onToggle}
