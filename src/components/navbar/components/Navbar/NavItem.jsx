@@ -1,6 +1,6 @@
 // components/Navbar/NavItem.jsx
 import { ChevronDown } from 'lucide-react';
-import { classNames } from '../../../utils/classNames';
+import { classNames } from '../../../../utils/classNames';
 import DropdownMenu from './DropdownMenu';
 
 const NavItem = ({ item, isActive, onToggle }) => {

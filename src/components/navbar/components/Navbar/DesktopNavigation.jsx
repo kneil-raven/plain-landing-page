@@ -1,4 +1,4 @@
-import NavItem from "../Navitem";
+import NavItem from "./NavItem";
 
 const DesktopNavigation = ({ items, activeDropdown, setActiveDropdown }) => (
   <div className="hidden lg:flex items-center space-x-1">

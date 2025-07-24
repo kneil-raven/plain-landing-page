@@ -7,7 +7,7 @@ import ActionButtons from "./ActionButtons";
 import MobileMenuButton from "./MobileMenuButton";
 import MobileNavigation from "./MobileNavigation";
 import MobileBackdrop from "./MobileBackdrop";
-import { NAV_CONFIG } from "../../../../utils/constants";
+import NAV_CONFIG  from "../../../../utils/constants";
 
 const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);

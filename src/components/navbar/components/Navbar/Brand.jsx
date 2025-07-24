@@ -1,7 +1,7 @@
-import navConfig from '../../../../utils/constants';
+import NAV_CONFIG from '../../../../utils/constants';
 
 const Brand = () => {
-    const brand = navConfig.brand;
+    const brand = NAV_CONFIG.brand;
 
     return (
         <div className='flex items-center space-x-2'>
