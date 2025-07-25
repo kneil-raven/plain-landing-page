@@ -6,7 +6,7 @@ const MobileBackdrop = ({ isOpen, onClose }) => {
   return (
     <div
       className={classNames(
-        "fixed inset-0 bg-black/20 backdrop-blur-sm z-40 lg:hidden transition-opacity duration-300"
+        "fixed inset-0 bg-purple/20 backdrop-blur-lg z-40 lg:hidden transition-opacity duration-300"
       )}
       onClick={onClose}
     />

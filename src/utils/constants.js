@@ -1,4 +1,4 @@
-const navConfig = {
+const NAV_CONFIG = {
     brand: {
         name: 'KneilRaven',
         logo: 'KR'
@@ -16,4 +16,4 @@ const navConfig = {
     ]
 };
 
-export default navConfig;
+export default NAV_CONFIG;

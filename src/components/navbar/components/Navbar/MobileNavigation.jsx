@@ -18,7 +18,7 @@ const MobileNavigation = ({ isOpen, items, onClose }) => {
             <div key={item.name}>
               <a
                 href={item.href}
-                className="block px-4 py-3 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-100/60 transition-all duration-200 font-medium"
+                className="block px-4 py-3 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-200/60 transition-all duration-200 font-medium"
                 onClick={onClose}
               >
                 {item.name}
@@ -29,7 +29,7 @@ const MobileNavigation = ({ isOpen, items, onClose }) => {
                     <a
                       key={dropItem}
                       href="#"
-                      className="block px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-50/60 rounded-lg transition-colors duration-150"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:text-gray-900 hover:bg-gray-200/30 rounded-lg transition-colors duration-150"
                       onClick={onClose}
                     >
                       {dropItem}

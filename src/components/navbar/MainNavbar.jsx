@@ -1,9 +1,8 @@
-// =======================
-// MAIN Navbar Component
-// =======================
-// import DesktopNavigation from "./components/Navbar/DesktopNavigation";
-// import Brand from '../navbar/components/Navbar/Brand';
+import React from "react";
+import Navbar from './components/Navbar'
 
-// const MainNavbar = () => {
+const MainNavbar = () => {
+    return <Navbar />;
+}
 
-// }
+export default MainNavbar;

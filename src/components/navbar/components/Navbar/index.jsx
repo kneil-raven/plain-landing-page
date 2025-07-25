@@ -44,7 +44,10 @@ const Navbar = () => {
         <MobileNavigation
           isOpen={mobileOpen}
           items={NAV_CONFIG.items}
-          onClose={closeMobile}
+          onClose={()  => {
+            closeDropdown();
+            closeMobile();
+          }}
         />
       </nav>
     </>
